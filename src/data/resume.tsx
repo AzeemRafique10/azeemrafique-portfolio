@@ -211,6 +211,7 @@ export const DATA = {
         "React.JS",
         "Typescript",
         "Node.JS",
+        "Clerk Authentication",
         "Mertial UI",
         "TailWindCSS",
         "HTML & CSS",
