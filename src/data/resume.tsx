@@ -291,7 +291,8 @@ export const DATA = {
       href: "https://ecommerce-ngvmbghjg-jamz47s-projects.vercel.app/#",
       dates: "Aug 2024",
       active: true,
-      description: "I built the Comforty website from scratch using HTML, CSS, Bootstrap, and JavaScript, ensuring a responsive and engaging user experience. Designed with Figma templates and deployed on Vercel, the site combines sleek design with robust functionality.",
+      description:
+        "I built the Comforty website from scratch using HTML, CSS, Bootstrap, and JavaScript, ensuring a responsive and engaging user experience. Designed with Figma templates and deployed on Vercel, the site combines sleek design with robust functionality.",
       technologies: [
         "HTML",
         "JavaScript",
@@ -320,7 +321,8 @@ export const DATA = {
       href: "https://circle-home.vercel.app/",
       dates: "Aug 2024",
       active: true,
-      description: "I built the Landing website from scratch using HTML, CSS, Bootstrap, and JavaScript, ensuring a responsive and engaging user experience. Designed with Figma templates and deployed on Vercel, the site combines sleek design with robust functionality.",
+      description:
+        "I built the Landing website from scratch using HTML, CSS, Bootstrap, and JavaScript, ensuring a responsive and engaging user experience. Designed with Figma templates and deployed on Vercel, the site combines sleek design with robust functionality.",
       technologies: [
         "HTML",
         "JavaScript",

@@ -1,4 +1,5 @@
 import { HackathonCard } from "@/components/hackathon-card";
+import { Icons } from "@/components/icons";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -202,12 +203,23 @@ export default function Page() {
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 Contact
               </div>
-              <h4 className="text-3xl font-bold sm:text-lg">
-                Email: azeemrafique47@gmail.com <br/>
-                Phone: +923338737779<br/>
-                WhatsApp: +923065395377
-              </h4>
-              <br/>
+
+              <div className="flex flex-col items-center font-bold sm:text-lg space-y-4">
+                <div className="flex">
+                  <Icons.emails className="w-8 h-8" />
+                  <p className="ml-2">Azeemrafique47@gmail.com</p>
+                </div>
+                <div className="flex ">
+                  <Icons.phone className="w-8 h-8" />
+                  <p className="ml-2">(+92) 333-8737779</p>
+                </div>
+                <div className="flex ">
+                  <Icons.whatsapp className="w-8 h-8" />
+                  <p className="ml-2">(+92) 306-5395377</p>
+                </div>
+              </div>
+
+              <br />
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>
