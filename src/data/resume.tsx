@@ -8,7 +8,7 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "MERN Stack Developer. I love building Websites and helping people. Very active on LinkedIn.",
+    "React.JS || React Native Developer. I love building Websites and Mobile Apps. Very active on LinkedIn.",
   summary:
     "Highly motivated and skilled software developer graduated with a Bachelor's degree in Computer Science and a strong foundation in JavaScript | React.JS | React Native. Eager to contribute my technical expertise and collaborative mindset to drive impactful projects in a dynamic team environment.",
   avatarUrl: "/me.jpg",
@@ -89,9 +89,9 @@ export const DATA = {
       location: "Remote",
       title: "Frontend Engineer",
       logoUrl: "/siemens.svg",
-      start: "Aug 2024",
-      end: "Current",
-      description: `I am a Junior Frontend Developer with experience in modifying code, fixing bugs, and updating user interfaces to enhance functionality and design. I am skilled in optimizing front-end performance and ensuring smooth, user-friendly experiences. My role involves writing clear and concise documentation to support development and maintenance processes. I have a keen eye for detail and a passion for improving web applications. I am eager to contribute to innovative projects and continuously expand my skills.`,
+      start: "Jul 2024",
+      end: "Sep 30 2024 Contract",
+      description: `I was a Junior Frontend Developer with experience in modifying code, fixing bugs, and updating user interfaces to enhance functionality and design. I am skilled in optimizing front-end performance and ensuring smooth, user-friendly experiences. My role involves writing clear and concise documentation to support development and maintenance processes. I have a keen eye for detail and a passion for improving web applications. I am eager to contribute to innovative projects and continuously expand my skills.`,
     },
     {
       company: "Trade Tracker Company",
@@ -101,7 +101,7 @@ export const DATA = {
       title: "Frontend Engineer",
       logoUrl: "/tt.png",
       start: "Aprl 2024",
-      end: "Jul 2024",
+      end: "Jun 30 2024",
       description: `Currently working at Trade Tracker. My responsibilities include fixing bugs, updating UI, and implementing new logic across three websites, including Nestle, Intradoors.com, and Trade Tracker's own site. Additionally, monitor and resolve issues in database service requests.`,
     },
     {
