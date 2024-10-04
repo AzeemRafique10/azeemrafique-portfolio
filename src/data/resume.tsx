@@ -46,7 +46,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Jamz47",
+        url: "https://github.com/AzeemRafique10",
         icon: Icons.github,
 
         navbar: true,
@@ -201,12 +201,42 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "E-commerce Mobile Application",
+      href: "N/A",
+      dates: "Oct 2024",
+      active: true,
+      description:
+        "I developed a fully functional **React Native E-commerce Android app** that allows users to browse products, add items to their cart, and make purchases seamlessly. The app integrates real-time data through APIs, supports secure payment gateways, and provides an intuitive, user-friendly interface optimized for mobile devices. Features include product search, filters, wishlists, and order tracking, ensuring a smooth shopping experience for users.",
+      technologies: [
+        "React Native",
+        "Javascript",
+        "Node.JS",
+        "Firebase",
+        "HTML & CSS",
+        "FontAwesome",
+        "Mertial UI",
+      ],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/AzeemRafique10",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/AzeemRafique10",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/mobileApp.mp4",
+    },{
       title: "PPP Planer",
       href: "N/A",
       dates: "August 2024",
       active: true,
       description:
-        "I worked on the PPP Planner website, adding new features using React, Vite, TypeScript, and TailwindCSS. I implemented Clerk Authentication to enhance security and streamlined the user experience. Additionally, I improved the UI and redesigned the navigation bar for better accessibility and performance. These updates significantly enhanced the functionality and usability of the web application.",
+        "I worked on the **PPP Planner website**, adding new features using React, Vite, TypeScript, and TailwindCSS. I implemented Clerk Authentication to enhance security and streamlined the user experience. Additionally, I improved the UI and redesigned the navigation bar for better accessibility and performance. These updates significantly enhanced the functionality and usability of the web application.",
       technologies: [
         "React.JS",
         "Typescript",
@@ -224,6 +254,7 @@ export const DATA = {
           href: "",
           icon: <Icons.globe className="size-3" />,
         },
+        
       ],
       image: "",
       video: "/pppplaner.mp4",
@@ -234,7 +265,7 @@ export const DATA = {
       dates: "March 2024",
       active: true,
       description:
-        "I developed the Intradoors website using Angular, focusing on creating a robust and dynamic user interface. The project utilized a range of technologies, including AngularJS, TypeScript, and Node.js for seamless functionality. The design was enhanced with Material UI, Sass, and Bootstrap, ensuring a responsive and visually appealing layout. Additionally, I integrated FontAwesome icons and structured the content with HTML to provide a comprehensive and user-friendly experience.",
+        "I developed the **Intradoors website using Angular**, focusing on creating a robust and dynamic user interface. The project utilized a range of technologies, including AngularJS, TypeScript, and Node.js for seamless functionality. The design was enhanced with Material UI, Sass, and Bootstrap, ensuring a responsive and visually appealing layout. Additionally, I integrated FontAwesome icons and structured the content with HTML to provide a comprehensive and user-friendly experience.",
       technologies: [
         "Angular.JS",
         "Typescript",
@@ -279,7 +310,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/Jamz47",
+          href: "https://github.com/AzeemRafique10",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -288,7 +319,7 @@ export const DATA = {
     },
     {
       title: "Comforty Website",
-      href: "https://ecommerce-ngvmbghjg-jamz47s-projects.vercel.app/#",
+      href: "https://ecommerce-ngvmbghjg-AzeemRafique10s-projects.vercel.app/#",
       dates: "Aug 2024",
       active: true,
       description:
@@ -309,7 +340,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/Jamz47",
+          href: "https://github.com/AzeemRafique10",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -339,7 +370,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/Jamz47/circle-home",
+          href: "https://github.com/AzeemRafique10",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -370,7 +401,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/Jamz47/Landing-page",
+          href: "https://github.com/AzeemRafique10/Landing-page",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -379,7 +410,7 @@ export const DATA = {
     },
     {
       title: "React Calculator",
-      href: "https://calculator-react-raqt1di2d-jamz47s-projects.vercel.app/",
+      href: "https://calculator-react-raqt1di2d-AzeemRafique10s-projects.vercel.app/",
       dates: "February 2024",
       active: true,
       description: "Make Calculator With React.JS during Internship",
@@ -396,7 +427,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://calculator-react-raqt1di2d-jamz47s-projects.vercel.app/",
+          href: "https://calculator-react-raqt1di2d-AzeemRafique10s-projects.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -425,7 +456,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/Jamz47",
+          href: "https://github.com/AzeemRafique10",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -479,7 +510,7 @@ export const DATA = {
     //     {
     //       title: "Github",
     //       icon: <Icons.github className="h-4 w-4" />,
-    //       href: "https://github.com/Jamz47",
+    //       href: "https://github.com/AzeemRafique10",
     //     },
     //   ],
     // },
