@@ -152,18 +152,7 @@ export const DATA = {
       description:
         "Certificate in JavaScript Algorithms and Data Structures & \nCertificate in Responsive Web Design ",
     },
-    // {
-    //   company: "Mitre Media",
-    //   href: "https://mitremedia.com/",
-    //   badges: [],
-    //   location: "Toronto, ON",
-    //   title: "Software Engineer",
-    //   logoUrl: "/mitremedia.png",
-    //   start: "May 2017",
-    //   end: "August 2017",
-    //   description:
-    //     "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    // },
+    
   ],
   education: [
     {
@@ -498,54 +487,6 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
       links: [],
     },
-    // {
-    //   title: "DeveloperWeek Hackathon",
-    //   dates: "February 3rd - 4th, 2018",
-    //   location: "San Francisco, California",
-    //   description:
-    //     "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-    //   image:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-    //   links: [
-    //     {
-    //       title: "Github",
-    //       icon: <Icons.github className="h-4 w-4" />,
-    //       href: "https://github.com/AzeemRafique10",
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: "HackDavis",
-    //   dates: "January 20th - 21st, 2018",
-    //   location: "Davis, California",
-    //   description:
-    //     "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-    //   image:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-    //   win: "Best Data Hack",
-    //   mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-    //   links: [
-    //     {
-    //       title: "Devpost",
-    //       icon: <Icons.globe className="h-4 w-4" />,
-    //       href: "https://devpost.com/software/my6footprint",
-    //     },
-    //     {
-    //       title: "ML",
-    //       icon: <Icons.github className="h-4 w-4" />,
-    //       href: "https://github.com/Wallet6/my6footprint-machine-learning",
-    //     },
-    //     {
-    //       title: "iOS",
-    //       icon: <Icons.github className="h-4 w-4" />,
-    //       href: "https://github.com/Wallet6/CarbonWallet",
-    //     },
-    //     {
-    //       title: "Server",
-    //       icon: <Icons.github className="h-4 w-4" />,
-    //       href: "https://github.com/Wallet6/wallet6-server",
-    //     },
-    //   ],
-    // },
+  
   ],
 } as const;
