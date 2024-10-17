@@ -112,7 +112,7 @@ export const DATA = {
       title: "Mobile Apps & Web Developer",
       logoUrl: "/upwork.svg",
       start: "August 2022",
-      // end: "Current",
+      end: "Present",
       description:
         "React Native Developer & MERN stack developer. Work as junior Developer build components and fix bugs with team members. Works on Authentication",
     },
