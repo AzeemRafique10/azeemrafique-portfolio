@@ -1,4 +1,4 @@
-<div align="center">
+<div align ="center">
 <img alt="Portfolio" src="./public/portfolioazeem.png" width="90%">
 </div>
 
