@@ -83,6 +83,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Eccount Book ERP ",
+      href: "https://scstecknologies.com/",
+      badges: [],
+      location: "On-site",
+      title: "Synergic Corporate Solutions (pvt) ltd.",
+      logoUrl: "/synergic.png",
+      start: "Jan 2025",
+      end: "Present",
+      description: `I have been working as a React and React Native Frontend Developer`,
+    },
+    {
       company: "SIEMENS ENERGY",
       href: "https://www.siemens-energy.com/global/en/home.html",
       badges: [],
@@ -163,7 +174,6 @@ export const DATA = {
       description:
         "Certificate in JavaScript Algorithms and Data Structures & \nCertificate in Responsive Web Design ",
     },
-    
   ],
   education: [
     {
@@ -192,6 +202,37 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Online & Offline (PWA) Prograssive Web Application",
+      href: "N/A",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "I developed a fully functional **React PWA Online And Offline** that allows users to browse online and offline both, Save the Record of Users if Dont have Internet connection or loose during Saving Record the Data will be saved in any Condition on Database",
+      technologies: [
+        "React Vite",
+        "Javascript",
+        "Node.JS",
+        "MongoDB",
+        "HTML & CSS",
+        "FontAwesome",
+      ],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/AzeemRafique10",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/AzeemRafique10",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/watch.",
+    },
+    ,
     {
       title: "E-commerce Mobile Application",
       href: "N/A",
@@ -222,7 +263,8 @@ export const DATA = {
       ],
       image: "",
       video: "/mobileApp.mp4",
-    },{
+    },
+    {
       title: "PPP Planer",
       href: "N/A",
       dates: "August 2024",
@@ -246,7 +288,6 @@ export const DATA = {
           href: "",
           icon: <Icons.globe className="size-3" />,
         },
-        
       ],
       image: "",
       video: "/pppplaner.mp4",
@@ -490,6 +531,5 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
       links: [],
     },
-  
   ],
 } as const;

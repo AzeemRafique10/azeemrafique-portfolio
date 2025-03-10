@@ -138,15 +138,15 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
               >
                 <ProjectCard
-                  href={project.href}
-                  key={project.title}
+                  href={project?.href}
+                  key={project?.title}
                   title={project.title}
                   description={project.description}
                   dates={project.dates}
                   tags={project.technologies}
-                  image={project.image}
-                  video={project.video}
-                  links={project.links}
+                  image={project?.image}
+                  video={project?.video}
+                  links={project?.links}
                 />
               </BlurFade>
             ))}
@@ -215,7 +215,7 @@ export default function Page() {
                 </div>
                 <div className="flex ">
                   <Icons.whatsapp className="w-8 h-8" />
-                  <p className="ml-2">(+92) 306-5395377</p>
+                  <p className="ml-2">(+92) 333-8737779</p>
                 </div>
               </div>
 
