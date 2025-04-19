@@ -22,6 +22,10 @@ export const DATA = {
     "TypeScript",
     "Node.Js",
     "Express.Js",
+    "Redux",
+    "React Hook Form",
+    "React Router",
+    "React Native Paper",
     "lodash",
     "Unit Testing With Jest",
     "REST APIS",
@@ -29,7 +33,7 @@ export const DATA = {
     "FireBase",
     "Android Studio",
     "Git",
-    "AntDesign",
+    "Ant Design",
     "Tailwind CSS",
     "BootStrap",
     "Material UI",
@@ -86,7 +90,7 @@ export const DATA = {
 
   work: [
     {
-      company: "Eccount Book ERP ",
+      company: "EccountBook ERP ",
       href: "https://scstecknologies.com/",
       badges: [],
       location: "On-site",
@@ -116,7 +120,7 @@ export const DATA = {
       logoUrl: "/tt.png",
       start: "Apr 2024",
       end: "Jun 2024",
-      description: `Currently working at Trade Tracker. My responsibilities include fixing bugs, updating UI, and implementing new logic across three websites, including Nestle, Intradoors.com, and Trade Tracker's own site. Additionally, monitor and resolve issues in database service requests.`,
+      description: `Worked at Trade Tracker. My responsibilities was include fixing bugs, updating UI, and implementing new logic across three websites, including Nestle, Intradoors.com, and Trade Tracker's own site. Additionally, monitor and resolve issues in database service requests.`,
     },
     {
       company: "Nomad's TECH Company",
@@ -125,9 +129,9 @@ export const DATA = {
       location: "On-Site",
       title: "React Internship",
       logoUrl: "/nomadtech.png",
-      start: "s2024",
-      end: " 2024",
-      description: `Currently working at Trade Tracker. My responsibilities include fixing bugs, updating UI, and implementing new logic across three websites, including Nestle, Intradoors.com, and Trade Tracker's own site. Additionally, monitor and resolve issues in database service requests.`,
+      start: "2 ",
+      end: " Month",
+      description: `Worked as a Intern at Nomad's TECH. Learning and implementing React.js, React Native. I was involved in developing a website for a client using React.js, where I contributed to the design and implementation of various features. Additionally, I gained hands-on experience with React Native by working on a mobile application project.`,
     },
     {
       company: "Upwork",
