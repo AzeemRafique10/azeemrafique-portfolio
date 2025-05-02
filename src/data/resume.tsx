@@ -90,6 +90,17 @@ export const DATA = {
 
   work: [
     {
+      company: "ZySoftec",
+      href: "https://zysoftec.com/",
+      badges: [],
+      location: "Remote",
+      title: "React Native Developer",
+      logoUrl: "/zysoftec.png",
+      start: "April 2025",
+      end: "Present (Remote)",
+      description: `I have been working as a React Native Developer Build Mobile Apps for clients. Name (Salon App)`,
+    },
+    {
       company: "EccountBook ERP ",
       href: "https://scstecknologies.com/",
       badges: [],
@@ -97,7 +108,7 @@ export const DATA = {
       title: "Synergic Corporate Solutions (pvt) ltd.",
       logoUrl: "/synergic.png",
       start: "Jan 2025",
-      end: "Present",
+      end: "April 2025",
       description: `I have been working as a React and React Native Frontend Developer I specialize in building and maintaining the EccontBook ERP system using React.js. My expertise includes implementing efficient UI components with React Query and React Hook Form to enhance user experience. I collaborate closely with the team to deliver high-quality, scalable solutions for enterprise level applications.`,
     },
     {
