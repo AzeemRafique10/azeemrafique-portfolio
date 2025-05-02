@@ -98,7 +98,7 @@ export const DATA = {
       logoUrl: "/zysoftec.png",
       start: "April 2025",
       end: "Present (Remote)",
-      description: `I have been working as a React Native Developer Build Mobile Apps for clients. Name (Salon App)`,
+      description: `I have been working as a React Native Developer Build Mobile Apps for clients. Name (Salon App) Full App Build with (React Native)`,
     },
     {
       company: "EccountBook ERP ",
