@@ -95,7 +95,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "React Native Developer",
-      logoUrl: "/zysoftec.png",
+      logoUrl: "/zySoftec.png",
       start: "April 2025",
       end: "Present (Remote)",
       description: `I have been working as a React Native Developer Build Mobile Apps for clients. Name (Salon App) Full App Build with (React Native)`,
