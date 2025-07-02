@@ -90,15 +90,36 @@ export const DATA = {
 
   work: [
     {
-      company: "ZySoftec",
-      href: "https://zysoftec.com/",
+      company: "SpeedX",
+      href: "",
       badges: [],
       location: "Remote",
       title: "React Native Developer",
-      logoUrl: "/zySoftec.png",
-      start: "April 2025",
-      end: "Present (Remote)",
-      description: `I have been working as a React Native Developer Build Mobile Apps for clients. Name (Salon App) Full App Build with (React Native)`,
+      logoUrl: "/SpeedX.jpg",
+      start: "June 2025",
+      end: "June (Contract)",
+      description: `Built a mobile app that monitors vehicle speed in real-time using GPS. If the driver exceeds 120 km/h, the app automatically sends an alert message to the parent’s phone and secretly records video from the back camera as evidence. The app runs continuously in the background with minimal battery use. Key Work:
+
+Developed speed tracking and background services in React Native.
+Integrated stealth video recording and SMS notifications.
+Handled native permissions for GPS, camera, and background tasks.
+Tested for reliable performance in real driving conditions.`,
+    },
+    {
+      company: "Kutsbee",
+      href: "https://kutsbee.com/",
+      badges: [],
+      location: "Remote",
+      title: "React Native Developer",
+      logoUrl: "/kutsbee.jpg",
+      start: "May 2025",
+      end: "June (Contract)",
+      description: `Developed a cross-platform mobile application for a salon, designed to streamline appointment booking and enhance customer experience. The app allows users to browse available services, select preferred stylists, book appointments, and receive real-time notifications. Implemented features include user authentication, calendar integration, service catalog, stylist profiles, and secure payment processing. Focused on creating an intuitive, responsive UI using React Native components and maintained smooth performance on both iOS and Android devices.  Key Responsibilities:
+Designed and built reusable React Native components for seamless navigation and booking flows.
+Integrated third-party libraries for calendar scheduling and push notifications.
+Managed state using Context API / Redux (adjust based on what you used).
+Worked closely with backend APIs to handle user data, appointment slots, and payments securely.
+Tested and debugged the app to ensure a smooth user experience across devices.`,
     },
     {
       company: "EccountBook ERP ",
