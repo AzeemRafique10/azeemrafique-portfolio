@@ -8,9 +8,9 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "React.JS || React Native Developer. I love building Websites and Mobile Apps. Very active on LinkedIn.",
+    "React Native, React.JS Developer. I love building Websites and Mobile Apps. Very active on LinkedIn.",
   summary:
-    "Highly motivated and skilled software developer graduated with a Bachelor's degree in Computer Science and a strong foundation in JavaScript | React.JS | React Native. Eager to contribute my technical expertise and collaborative mindset to drive impactful projects in a dynamic team environment.",
+    "Highly motivated and skilled software developer graduated with a Bachelor's degree in Computer Science and a strong foundation in JavaScript React Native | React.JS. Eager to contribute my technical expertise and collaborative mindset to drive impactful projects in a dynamic team environment.",
   avatarUrl: "/me.jpg",
   skills: [
     "React Native",
