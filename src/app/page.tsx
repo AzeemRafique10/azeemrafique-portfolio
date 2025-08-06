@@ -45,7 +45,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+          <Markdown className="text-justify prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
             {DATA.summary}
           </Markdown>
         </BlurFade>
@@ -164,7 +164,7 @@ export default function Page() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   I like building things
                 </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify">
                   During my time in university, I attended{" "}
                   {DATA.hackathons.length}+ projects. People from around the
                   country would come together and build incredible things in 2-3
@@ -204,18 +204,18 @@ export default function Page() {
                 Contact
               </div>
 
-              <div className="flex flex-col items-center font-bold sm:text-lg space-y-4">
-                <div className="flex">
-                  <Icons.emails className="w-8 h-8" />
-                  <p className="ml-2">Azeemrafique47@gmail.com</p>
+              <div className="flex flex-col items-start font-semibold sm:text-lg space-y-4 text-white">
+                <div className="flex items-center">
+                  <Icons.emails className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600" />
+                  <p className="ml-3">Azeemrafique47@gmail.com</p>
                 </div>
-                <div className="flex ">
-                  <Icons.phone className="w-8 h-8" />
-                  <p className="ml-2">(+92) 333-8737779</p>
+                <div className="flex items-center">
+                  <Icons.phone className="w-6 h-6 sm:w-8 sm:h-8 text-green-600" />
+                  <p className="ml-3">(+92) 333-8737779</p>
                 </div>
-                <div className="flex ">
-                  <Icons.whatsapp className="w-8 h-8" />
-                  <p className="ml-2">(+92) 333-8737779</p>
+                <div className="flex items-center">
+                  <Icons.whatsapp className="w-6 h-6 sm:w-8 sm:h-8 text-green-500" />
+                  <p className="ml-3">(+92) 333-8737779</p>
                 </div>
               </div>
 
@@ -223,7 +223,7 @@ export default function Page() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify">
                 Want to chat? Just shoot me a dm{" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
