@@ -90,6 +90,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Yufixit",
+      href: "www.yufixit.com",
+      badges: [],
+      location: "USA Remote",
+      title: "React Native Developer",
+      logoUrl: "/yufixit.png",
+      start: "June 2025",
+      end: "Current",
+      description: `Yufixit is a mobile application designed to seamlessly connect customers with trusted service providers for various home maintenance and repair needs. The goal of this upgrade is to modernize the entire app by migrating it from React Native version 0.67 to 0.75. This includes updating all APIs, replacing outdated packages, improving performance with Hermes, and refactoring the codebase using modern React practices such as hooks and functional components. In addition to enhancing the UI/UX and overall app stability, the project also focuses on optimizing Android compatibility by updating Gradle, Kotlin, and Android libraries. Once the upgrade is complete and the app is thoroughly tested, the updated version will be published to the Google Play Store for public use.`,
+    },
+    {
       company: "SpeedX",
       href: "",
       badges: [],
@@ -105,22 +116,22 @@ Integrated stealth video recording and SMS notifications.
 Handled native permissions for GPS, camera, and background tasks.
 Tested for reliable performance in real driving conditions.`,
     },
-    {
-      company: "Kutsbee",
-      href: "https://kutsbee.com/",
-      badges: [],
-      location: "Remote",
-      title: "React Native Developer",
-      logoUrl: "/kutsbee.jpg",
-      start: "May 2025",
-      end: "June (Contract)",
-      description: `Developed a cross-platform mobile application for a salon, designed to streamline appointment booking and enhance customer experience. The app allows users to browse available services, select preferred stylists, book appointments, and receive real-time notifications. Implemented features include user authentication, calendar integration, service catalog, stylist profiles, and secure payment processing. Focused on creating an intuitive, responsive UI using React Native components and maintained smooth performance on both iOS and Android devices.  Key Responsibilities:
-Designed and built reusable React Native components for seamless navigation and booking flows.
-Integrated third-party libraries for calendar scheduling and push notifications.
-Managed state using Context API / Redux (adjust based on what you used).
-Worked closely with backend APIs to handle user data, appointment slots, and payments securely.
-Tested and debugged the app to ensure a smooth user experience across devices.`,
-    },
+    //     {
+    //       company: "Kutsbee",
+    //       href: "https://kutsbee.com/",
+    //       badges: [],
+    //       location: "Remote",
+    //       title: "React Native Developer",
+    //       logoUrl: "/kutsbee.jpg",
+    //       start: "May 2025",
+    //       end: "June (Contract)",
+    //       description: `Developed a cross-platform mobile application for a salon, designed to streamline appointment booking and enhance customer experience. The app allows users to browse available services, select preferred stylists, book appointments, and receive real-time notifications. Implemented features include user authentication, calendar integration, service catalog, stylist profiles, and secure payment processing. Focused on creating an intuitive, responsive UI using React Native components and maintained smooth performance on both iOS and Android devices.  Key Responsibilities:
+    // Designed and built reusable React Native components for seamless navigation and booking flows.
+    // Integrated third-party libraries for calendar scheduling and push notifications.
+    // Managed state using Context API / Redux (adjust based on what you used).
+    // Worked closely with backend APIs to handle user data, appointment slots, and payments securely.
+    // Tested and debugged the app to ensure a smooth user experience across devices.`,
+    //     },
     {
       company: "EccountBook ERP ",
       href: "https://scstecknologies.com/",
