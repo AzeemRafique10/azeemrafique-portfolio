@@ -13,10 +13,10 @@ export const DATA = {
     "Highly motivated and skilled software developer graduated with a Bachelor's degree in Computer Science and a strong foundation in JavaScript | React.JS | React Native. Eager to contribute my technical expertise and collaborative mindset to drive impactful projects in a dynamic team environment.",
   avatarUrl: "/me.jpg",
   skills: [
-    "React.Js",
     "React Native",
-    "React Query",
+    "React.Js",
     "Next.Js",
+    "React Query",
     "Angular.Js",
     "JavaScript",
     "TypeScript",
