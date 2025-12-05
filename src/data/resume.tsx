@@ -14,6 +14,8 @@ export const DATA = {
   avatarUrl: "/me.jpg",
   skills: [
     "React Native",
+    "IOS",
+    "Android",
     "React.Js",
     "Next.Js",
     "React Query",
@@ -31,6 +33,9 @@ export const DATA = {
     "REST APIS",
     "MongoDB",
     "FireBase",
+    "Fastlane",
+    "CleverTap",
+    "Singular",
     "Android Studio",
     "Git",
     "Ant Design",
@@ -90,6 +95,16 @@ export const DATA = {
 
   work: [
     {
+      company: "LightAwake",
+      href: "",
+      badges: [],
+      location: "USA Remote",
+      title: "Sr. React Native Developer",
+      logoUrl: "/lightawake.jpg",
+      start: "Sep 2025",
+      end: "Current",
+      description: `LightAwake Alarm Application`,
+    },{
       company: "Yufixit",
       href: "www.yufixit.com",
       badges: [],
@@ -101,6 +116,17 @@ export const DATA = {
       description: `Yufixit is a mobile application designed to seamlessly connect customers with trusted service providers for various home maintenance and repair needs. The goal of this upgrade is to modernize the entire app by migrating it from React Native version 0.67 to 0.75. This includes updating all APIs, replacing outdated packages, improving performance with Hermes, and refactoring the codebase using modern React practices such as hooks and functional components. In addition to enhancing the UI/UX and overall app stability, the project also focuses on optimizing Android compatibility by updating Gradle, Kotlin, and Android libraries. Once the upgrade is complete and the app is thoroughly tested, the updated version will be published to the Google Play Store for public use.`,
     },
     {
+      company: "Divoora",
+      href: "www.divoora.ch",
+      badges: [],
+      location: "Swizerland Remote",
+      title: "React Native Developer",
+      logoUrl: "/divoora.png",
+      start: "Aug 2025",
+      end: "Nov 2025",
+      description: `I worked at Divoora as a Senior React Native Developer, where I contributed to the enhancement and maintenance of the company’s delivery application. My responsibilities included integrating CleverTap and Singular for analytics, implementing Fastlane for both Android and iOS automation, and updating the legacy React Native codebase to improve performance and stability. I also updated various APIs and ensured seamless functionality across platforms, delivering a more efficient and optimized application experience.`,
+    },
+    {
       company: "SpeedX",
       href: "",
       badges: [],
@@ -110,11 +136,10 @@ export const DATA = {
       start: "June 2025",
       end: "June (Contract)",
       description: `Built a mobile app that monitors vehicle speed in real-time using GPS. If the driver exceeds 120 km/h, the app automatically sends an alert message to the parent’s phone and secretly records video from the back camera as evidence. The app runs continuously in the background with minimal battery use. Key Work:
-
-Developed speed tracking and background services in React Native.
-Integrated stealth video recording and SMS notifications.
-Handled native permissions for GPS, camera, and background tasks.
-Tested for reliable performance in real driving conditions.`,
+      Developed speed tracking and background services in React Native.
+      Integrated stealth video recording and SMS notifications.
+      Handled native permissions for GPS, camera, and background tasks.
+      Tested for reliable performance in real driving conditions.`,
     },
     //     {
     //       company: "Kutsbee",
