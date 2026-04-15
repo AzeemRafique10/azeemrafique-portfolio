@@ -37,6 +37,13 @@ export const DATA = {
     "CleverTap",
     "Singular",
     "Android Studio",
+    "Xcode",
+    "Swift",
+    "Kotlin",
+    "Java",
+    "Tuya",
+    "OpenAI",
+    "Expo",
     "Git",
     "Ant Design",
     "Tailwind CSS",
@@ -95,15 +102,15 @@ export const DATA = {
 
   work: [
     {
-      company: "LightAwake",
-      href: "",
+      company: "Sigma.ai",
+      href: "https://sigma.ai/",
       badges: [],
       location: "USA Remote",
       title: "Sr. React Native Developer",
-      logoUrl: "/lightawake.jpg",
+      logoUrl: "/sigma_ai_logo.jpeg",
       start: "Sep 2025",
       end: "Current",
-      description: `LightAwake Alarm Application`,
+      description: `Working as a Senior React Native Developer, developing high-performance cross-platform mobile applications. Leading feature development, improving app performance, and integrating APIs while collaborating with designers and backend teams to deliver scalable solutions.`,
     },{
       company: "Yufixit",
       href: "www.yufixit.com",
@@ -128,13 +135,13 @@ export const DATA = {
     },
     {
       company: "SpeedX",
-      href: "",
+      href: "www.speedx.com",
       badges: [],
       location: "Remote",
       title: "React Native Developer",
       logoUrl: "/SpeedX.jpg",
-      start: "June 2025",
-      end: "June (Contract)",
+      start: "(Contract) June",
+      end: "June 2025",
       description: `Built a mobile app that monitors vehicle speed in real-time using GPS. If the driver exceeds 120 km/h, the app automatically sends an alert message to the parent’s phone and secretly records video from the back camera as evidence. The app runs continuously in the background with minimal battery use. Key Work:
       Developed speed tracking and background services in React Native.
       Integrated stealth video recording and SMS notifications.
@@ -175,8 +182,8 @@ export const DATA = {
       location: "Remotes",
       title: "Frontend Engineer",
       logoUrl: "/siemens.svg",
-      start: "July 2024",
-      end: "Nov 2024 Contract",
+      start: "(Contract) July",
+      end: "Nov 2024",
       description: `I was a Junior Frontend Developer with experience in modifying code, fixing bugs, and updating user interfaces to enhance functionality and design. I am skilled in optimizing front-end performance and ensuring smooth, user-friendly experiences. My role involves writing clear and concise documentation to support development and maintenance processes. I have a keen eye for detail and a passion for improving web applications. I am eager to contribute to innovative projects and continuously expand my skills.`,
     },
     {

@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { ChevronRightIcon } from "lucide-react";
+import { ArrowUpRightIcon, ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -30,21 +30,20 @@ export const ResumeCard = ({
   description,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
+  const hasDescription = Boolean(description);
+  const canOpenLink = Boolean(href && href !== "#");
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    if (description) {
-      e.preventDefault();
-      setIsExpanded(!isExpanded);
+  const handleCardClick = () => {
+    if (hasDescription) {
+      setIsExpanded((prev) => !prev);
     }
   };
 
   return (
-    <Link
-      href={href || "#"}
-      className="block cursor-pointer"
-      onClick={handleClick}
+    <Card
+      className={cn("flex", hasDescription && "cursor-pointer")}
+      onClick={handleCardClick}
     >
-      <Card className="flex">
         <div className="flex-none">
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
             <AvatarImage
@@ -80,8 +79,20 @@ export const ResumeCard = ({
                   )}
                 />
               </h3>
-              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
-                {period}
+              <div className="flex items-center gap-2 text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+                <span>{period}</span>
+                {canOpenLink && (
+                  <Link
+                    href={href!}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Open ${title} website`}
+                    className="inline-flex size-5 items-center justify-center rounded-md transition-colors hover:text-foreground hover:bg-muted"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <ArrowUpRightIcon className="size-3.5" />
+                  </Link>
+                )}
               </div>
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
@@ -104,7 +115,6 @@ export const ResumeCard = ({
             </motion.div>
           )}
         </div>
-      </Card>
-    </Link>
+    </Card>
   );
 };
