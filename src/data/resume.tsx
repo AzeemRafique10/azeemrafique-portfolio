@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "React Native, React.JS Developer. I love building Websites and Mobile Apps. Very active on LinkedIn.",
   summary:
-    "Highly motivated and skilled software developer with 3+ years of professional experience, graduated with a Bachelor's degree in Computer Science and a strong foundation in JavaScript, React Native, and React.JS. Eager to contribute my technical expertise and collaborative mindset to drive impactful projects in a dynamic team environment.",
+    "Highly motivated and skilled software developer with professional experience, graduated with a Bachelor's degree in Computer Science and a strong foundation in JavaScript, React Native, and React.JS. Eager to contribute my technical expertise and collaborative mindset to drive impactful projects in a dynamic team environment.",
   avatarUrl: "/me.jpg",
   skills: [
     "React Native",
