@@ -119,8 +119,8 @@ export const DATA = {
       location: "Switzerland · Remote",
       title: "React Native Developer",
       logoUrl: "/divoora.png",
-      start: "Nov 2025",
-      end: "Mar 2026",
+      start: "Aug 2025",
+      end: "Feb 2026",
       description: `Developed and maintained a cross-platform React Native food delivery application for a Swiss-based product. Integrated Singular SDK for advanced mobile attribution and analytics tracking, enhancing user insights. Collaborated with backend engineers and UI/UX designers to deliver scalable features, focusing on performance optimization. Worked with native code modules to improve app performance for both Android and iOS platforms.`,
     },
     {
@@ -130,8 +130,8 @@ export const DATA = {
       location: "United States · Remote",
       title: "Sr. React Native Developer",
       logoUrl: "/sigma_ai_logo.jpeg",
-      start: "Jul 2025",
-      end: "Nov 2025",
+      start: "Jun 2025",
+      end: "Oct 2025",
       description: `Worked as a Senior React Native Developer on part-time engagements, building cross-platform mobile applications with a focus on user authentication flows and IoT integrations including Tuya smart device SDK. Delivered scalable features while collaborating with product and backend teams.`,
     },
     {
@@ -141,8 +141,8 @@ export const DATA = {
       location: "United States · Remote",
       title: "Sr. React Native Developer",
       logoUrl: "/yufixit.png",
-      start: "Oct 2024",
-      end: "Jul 2025",
+      start: "Jun 2024",
+      end: "May 2025",
       description: `Developed the YUFIXIT app, enabling customers to easily order technicians for various repairs. Engaged with users to enhance app functionality and improve customer experience. Collaborated with cross-functional teams to ensure timely delivery of features and updates. Modernized the app by migrating React Native from 0.67 to 0.75, improving performance with Hermes and updating Android/iOS native dependencies.`,
     },
     {
@@ -152,8 +152,8 @@ export const DATA = {
       location: "Germany · Remote",
       title: "Frontend Developer",
       logoUrl: "/siemens.svg",
-      start: "May 2024",
-      end: "Sep 2024",
+      start: "Jan 2024",
+      end: "May 2024",
       description: `Developed and maintained dynamic web applications using React.js and Angular, enhancing user interfaces. Collaborated with cross-functional teams to deliver scalable and high-quality frontend solutions. Implemented best practices for performance and accessibility, ensuring optimal user experience. Actively participated in code reviews and debugging, refining skills in modern front-end technologies.`,
     },
     {
@@ -164,7 +164,7 @@ export const DATA = {
       title: "React.js Developer",
       logoUrl: "/synergic.png",
       start: "Oct 2023",
-      end: "Mar 2024",
+      end: "Dec 2023",
       description: `Developed and maintained user interfaces for ERP software using React, enhancing user experience and functionality. Integrated REST APIs and managed application state to ensure seamless data flow and performance optimization. Implemented form validations and utilized libraries like React Hook Form and Zod for robust user input handling.`,
     },
     {
